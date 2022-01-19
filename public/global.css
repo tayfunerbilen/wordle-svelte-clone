@@ -1,0 +1,47 @@
+body {
+    --bg: #121213;
+    --key: #818384;
+    --column: #3a3a3c;
+    --column-highlight: #565758;
+    --text: #fff;
+    --has: #b59f3b;
+    --same: #538d4e;
+    --no: #3a3a3c;
+}
+
+body.light {
+    --bg: #fff;
+    --key: #d3d6da;
+    --column: #d3d6da;
+    --column-highlight: #878a8c;
+    --text: #222;
+    --has: #c9b458;
+    --same: #6aaa64;
+    --no: #787c7e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+svg {
+    fill: var(--text)
+}
+
+button {
+    cursor: pointer;
+}
